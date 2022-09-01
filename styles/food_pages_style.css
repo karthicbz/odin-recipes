@@ -1,0 +1,23 @@
+body{
+    background-color: gold;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+img{
+    width: auto;
+    height: 350px;
+}
+
+p,ul,ol{
+    background-color: pink;
+    font-size: 20px;
+    font-family: 'Comic Sans';
+}
+
+h1,h2{
+    font-family: 'Apple Chancery', 'Comic Sans';
+}

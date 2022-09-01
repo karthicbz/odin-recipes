@@ -1,0 +1,18 @@
+body{
+    background-color: gold;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+ul li a{
+    color: black;
+    font-size: 28px;
+}
+
+ul li{
+    background-color: pink;
+}
+
