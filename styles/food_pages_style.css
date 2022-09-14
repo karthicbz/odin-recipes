@@ -1,23 +1,39 @@
-body{
-    background-color: gold;
-}
-
 h1{
     text-align: center;
-    color: red;
+    color: firebrick;
+    text-shadow: 2px 2px gray;
 }
 
-img{
-    width: auto;
+.container{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid firebrick;
+    padding: 16px;
+    border-radius: 10px; */
+}
+
+.food-image img{
+    width: 350px;
+    padding: 0 24px;
+    border-radius: 20%;
+}
+
+.desc_and_steps{
+    display: flex;
+    flex-direction: column;
+    background: lightgreen;
+    padding: 0 24px;
+    border-radius: 10px;
+    width: 750px;
+}
+
+ul li, ol li, p{
+    font-size: 18px;
+}
+
+.food-image-mac img, .food-image-rasp img{
+    width: 350px;
+    padding: 0 24px;
+    border-radius: 20%;
     height: 350px;
-}
-
-p,ul,ol{
-    background-color: pink;
-    font-size: 20px;
-    font-family: 'Comic Sans';
-}
-
-h1,h2{
-    font-family: 'Apple Chancery', 'Comic Sans';
 }
